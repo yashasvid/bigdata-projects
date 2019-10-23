@@ -1,0 +1,16 @@
+1. Some plate names in open-violations.csv have a comma in them. 
+For example: 
+1. S64BH,
+2. HE,1630
+3. 4J,L744
+4. 24787,JZ
+
+2. Most of the plates are named "BLANKPLATE" because of missing values in open-violations.csv
+
+3. There are many empty values for county in open-violations.csv
+
+4. Many violations have been recorded with meter_number as just a hyphen for most values in parking.violations.csv
+
+5. Many violations have been recorded with license_type as 999 in open-violations.csv
+
+6. Many violations have been recorded with time_first_observed as empty.
